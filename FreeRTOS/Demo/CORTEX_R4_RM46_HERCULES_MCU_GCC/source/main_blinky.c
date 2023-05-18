@@ -268,8 +268,7 @@ static void prvQueueReceiveTask( void * pvParameters )
     ( void ) pvParameters;
 
     /* Demo start marker. */
-	sci_print( "FreeRTOS Demo Start\r\n" );
-sci_print ( "UUID: _uuid_5602ef109cf948f4b7e4b0bd0b3297f5\r\n"  );
+    sci_print( "FreeRTOS Demo Start\r\n" );
 
     for( ; ; )
     {
